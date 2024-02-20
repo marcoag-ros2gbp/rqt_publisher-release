@@ -1,0 +1,12 @@
+Source: ros-rolling-rqt-publisher
+Section: misc
+Priority: optional
+Maintainer: Michael Jeronimo <michael.jeronimo@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), python3-pytest <!nocheck>, ros-rolling-ros-workspace, python3-all, python3-setuptools, dh-python
+Homepage: http://wiki.ros.org/rqt_publisher
+Standards-Version: 3.9.2
+
+Package: ros-rolling-rqt-publisher
+Architecture: any
+Depends: ${python3:Depends}, ${misc:Depends}, python3-numpy, ros-rolling-ament-index-python, ros-rolling-python-qt-binding (>= 0.2.19), ros-rolling-qt-gui-py-common, ros-rolling-rclpy, ros-rolling-rosidl-runtime-py, ros-rolling-rqt-gui, ros-rolling-rqt-gui-py, ros-rolling-rqt-py-common, ros-rolling-ros-workspace
+Description: rqt_publisher provides a GUI plugin for publishing arbitrary messages with fixed or computed field values.
